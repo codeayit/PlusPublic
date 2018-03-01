@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/PercentLayoutSytle"
+        android:src="@drawable/icon_nowifi"
+        app:layout_heightPercent="20%h"
+        app:layout_marginTopPercent="20%h"
+        app:layout_widthPercent="40%h" />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="wrap_content"
+        style="@style/PercentLayoutSytle"
+        app:layout_heightPercent="6%h"
+        android:gravity="center_vertical"
+        app:layout_marginTopPercent="8%h">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_network"
+            app:layout_textSizePercent="100%h"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/graydim" />
+        <TextView
+            android:id="@+id/tv_connectnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_connect_net"
+            android:layout_marginLeft="5dp"
+            app:layout_textSizePercent="100%h"
+            android:textColor="@color/blue"  />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_reload"
+        style="@style/PercentLayoutSytle"
+        android:background="@drawable/shape_rectangle_reound_all_00000000_stroke_blue"
+        android:gravity="center"
+        android:text="@string/reload"
+        android:textColor="@color/blue"
+        app:layout_heightPercent="12%h"
+        app:layout_marginTopPercent="8%h"
+        app:layout_textSizePercent="5%h"
+        app:layout_widthPercent="35%h" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

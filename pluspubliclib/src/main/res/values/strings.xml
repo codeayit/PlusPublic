@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PlusPublicLib</string>
+
+
+    <string name="hint_empty">小墨没有找到数据哦!</string>
+    <string name="hint_error">小墨没有找到数据哦!</string>
+    <string name="hint_network">网络故障!</string>
+    <string name="hint_connect_net">立即联网</string>
+    <string name="reload">重新加载</string>
 </resources>
