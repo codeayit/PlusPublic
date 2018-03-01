@@ -29,5 +29,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
 
-    compile 'com.github.1053452188:BaseAppApi:14dc53e7d3'
+    compile 'com.github.1053452188:BaseAppApi:159b96db6e'
 }
